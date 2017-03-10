@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.3.4.RELEASE</version>
+		<version>1.3.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -86,16 +86,16 @@
 	</build>
 
 	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>15273f3ea325-releases</name>
-			<url>http://artifacts.devopsvarun.tk/artifactory/libs-release</url>
-		</repository>
-			<snapshotRepository>
-				<id>snapshots</id>
-				<name>15273f3ea325-snapshots</name>
-				<url>http://artifacts.devopsvarun.tk/artifactory/libs-snapshot</url>
-			</snapshotRepository>
+			<repository>
+				<id>central</id>
+				<name>bfeb2b4a4baa-releases</name>
+				<url>http://artifacts.devopsvarun.tk/artifactory/libs-release</url>
+			</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>bfeb2b4a4baa-snapshots</name>
+			<url>http://artifacts.devopsvarun.tk/artifactory/libs-snapshot</url>
+		</snapshotRepository>
 	</distributionManagement>
 	
 
